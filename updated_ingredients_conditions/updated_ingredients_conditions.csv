@@ -1,0 +1,95 @@
+Food Ingredients,Unnamed: 1,Health Conditions,Diabetes,High Blood Pressure,Heart Disease,Celiac Disease,Lactose Intolerance,IBS,Obesity,Food Allergies,Chronic Kidney Disease,Gout,Acid Reflux,Anemia,Asthma,Cholesterol Imbalances,Skin Conditions,Gallstones,Osteoporosis,Thyroid Disorders,Migraine
+Water,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sugar,,,Bad,bad,Bad,neutral,neutral,bad,bad,bad,bad,bad,bad,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral
+High fructose corn syrup,,,Bad,bad,Bad,neutral,neutral,bad,bad,bad,bad,bad,bad,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral
+Corn syrup,,,Bad,bad,Bad,neutral,neutral,bad,bad,bad,bad,bad,bad,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral
+Salt,,,Neutral,bad,Bad,neutral,neutral,neutral,neutral,neutral,bad,bad,bad,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral
+Vegetable oil,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral
+Palm oil,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Hydrogenated vegetable oil,,,Bad,neutral,Bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Monosodium glutamate (MSG),,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,bad,neutral,neutral,neutral
+Natural and artificial flavors,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,bad,neutral,neutral,neutral
+Citric acid,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad
+Sodium benzoate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Potassium sorbate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Ascorbic acid,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral
+Caramel color,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral,neutral
+Soy lecithin,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+BHA,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+BHT,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Xanthan gum,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Guar gum,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Monoglycerides,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Diglycerides,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Calcium carbonate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sodium chloride,,,Neutral,bad,Bad,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral
+Baking soda,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Yeast,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Vinegar,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Lactic acid,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Tartaric acid,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Maltodextrin,,,Bad,bad,Bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sodium citrate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Potassium chloride,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Dextrose,,,Bad,bad,Bad,neutral,neutral,bad,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral
+Sucrose,,,Bad,bad,Bad,neutral,neutral,bad,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral
+Lactose,,,Neutral,neutral,Neutral,neutral,bad,bad,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Whey,,,Neutral,neutral,Neutral,neutral,bad,bad,bad,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral
+Gelatin,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Pectin,,,Neutral,good,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Carboxymethylcellulose,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Soy protein,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,bad,neutral
+Casein,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral
+Wheat flour,,,Neutral,neutral,Neutral,bad,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Cornstarch,,,Neutral,neutral,Neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Rice flour,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Oat flour,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral
+Barley malt extract,,,Neutral,neutral,Neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Almonds,,,Good,good,Good,good,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,good,neutral,good,good,neutral,neutral
+Peanuts,,,Good,good,Good,good,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral,good,neutral,neutral
+Sesame seeds,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,neutral,neutral
+Cocoa powder,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Chocolate liquor,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Vanillin,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Erythritol,,,Good,neutral,Good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Stevia,,,Good,neutral,Good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sucralose,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,bad
+Aspartame,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Tocopherols,,,Good,good,Good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Beta-carotene,,,Good,good,Good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Lecithin,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Lemon juice concentrate,,,Good,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Orange juice concentrate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Calcium propionate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sodium metabisulfite,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,neutral
+Sodium bicarbonate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Sodium hydroxide,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Malt extract,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Potassium iodide,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Magnesium stearate,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Tapioca starch,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Modified food starch,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Gelatin,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Cinnamon,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,good,neutral,neutral
+Nutmeg,,,Good,neutral,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Vanilla extract,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Ginger,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,good,neutral,neutral
+Turmeric,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,good,good,neutral,neutral
+Cilantro,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Basil,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Oregano,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Rosemary,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Thyme,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Paprika,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Chili powder,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Cumin,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Mustard seeds,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Fennel seeds,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Cloves,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Bay leaves,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Mace,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Pepper,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Garlic powder,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Onion powder,,,Good,good,Good,good,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Celery salt,,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral
+Monosodium glutamate (MSG),,,Neutral,neutral,Neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,neutral,bad,neutral,neutral,neutral,neutral,neutral,bad

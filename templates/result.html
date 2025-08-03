@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+    <!-- Project name at top-left of the page -->
+    <div class="project-name">
+        <h1>HealthOptima</h1>
+    </div>
+
+    <main>
+        <div class="result-container">
+            <!-- Back arrow at top-left of the card -->
+            <div class="back-arrow">
+                <a href="uploadimage">&#8592;</a>
+            </div>
+
+            <!-- Title -->
+            <h2>Ingredient Analysis Result</h2>
+
+            <!-- Analysis Result -->
+            <div class="result-box">
+                <p>{{ result }}</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

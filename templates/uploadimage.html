@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='uploadimage.css') }}">
+</head>
+<body>
+    <main>
+        <div class="image-upload-section">
+            <!-- Back Arrow at the top-left of the card layout -->
+            <div class="back-arrow">
+                <a href="home">&#8592;</a> <!-- Only the arrow now -->
+            </div>
+            
+            <h2>Upload Image of Ingredients</h2>
+            
+            <!-- Instructions for image -->
+            <div class="instructions">
+                <p>Please upload a clear picture of the ingredients name. The picture should show only parts of the ingredients, not the entire dish or background. Make sure the image is in focus to ensure accurate analysis.</p>
+            </div>
+            
+            <!-- Image upload form -->
+            <form action="/uploadimage" method="POST" enctype="multipart/form-data">
+                <div class="upload-container">
+                    <label for="ingredient-image">Select Image:</label>
+                    <input type="file" id="ingredient-image" name="ingredient-image" accept="image/*" required>
+                </div>
+                
+                <!-- Message Section -->
+                <div class="message-section">
+                    <p>{{ message }}</p>
+                </div>
+
+                <div class="buttons">
+                    <!-- Next Button to proceed to the next page -->
+                    <button type="submit">Next</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

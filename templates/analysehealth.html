@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Health Analysis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='analysehealth.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Personal Health Analysis</h1>
+  </header>
+
+  {% if show_form %}
+  <!-- Centered Input Form -->
+  <div class="input-wrapper">
+    <section class="input-card">
+      <h2>Enter Your Body Measurements</h2>
+      <form method="POST" action="{{ url_for('analysehealth') }}">
+        <label for="waist">Waist (cm):</label>
+        <input
+          type="number"
+          step="0.1"
+          id="waist"
+          name="waist"
+          required
+          placeholder="e.g. 85"
+          value="{{ request.form.get('waist', '') }}"
+        />
+
+        <label for="neck">Neck (cm):</label>
+        <input
+          type="number"
+          step="0.1"
+          id="neck"
+          name="neck"
+          required
+          placeholder="e.g. 38"
+          value="{{ request.form.get('neck', '') }}"
+        />
+
+        {% if user_info.Gender == 'Female' %}
+        <label for="hip">Hip (cm):</label>
+        <input
+          type="number"
+          step="0.1"
+          id="hip"
+          name="hip"
+          required
+          placeholder="e.g. 100"
+          value="{{ request.form.get('hip', '') }}"
+        />
+        {% endif %}
+
+        <button type="submit">Analyze</button>
+      </form>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url_for('home') }}" class="back-button">Back</a>
+      </div>
+    </section>
+  </div>
+
+  {% else %}
+  <!-- Results Layout -->
+  <main class="analysis-results">
+
+    <!-- Left Section -->
+    <section class="metrics-section">
+      <div>
+        <h2>Your Health Metrics</h2>
+        <ul>
+          <li><strong>BMI:</strong> {{ metrics["BMI"] }}</li>
+          <li><strong>BMR:</strong> {{ metrics["BMR"] }}</li>
+          <li><strong>TDEE:</strong> {{ metrics["TDEE"] }}</li>
+          <li><strong>Body Fat %:</strong> {{ metrics["Body Fat %"] }}</li>
+          <li><strong>Body Fat Category:</strong> {{ metrics["Body Fat Category"] }}</li>
+          <li><strong>Calorie Intake Advice:</strong> {{ metrics["Calorie Advice"] }}</li>
+        </ul>
+      </div>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url_for('home') }}" class="back-button">Back</a>
+      </div>
+    </section>
+
+    <!-- Right Section -->
+    <section class="plots-section">
+      <h2>BMI Category Distributions</h2>
+
+      
+      <div class="plot-container">
+        {% if plot2 %}
+        <h3>By Gender</h3>
+        <img src="{{ url_for('static', filename=plot2) }}" alt="BMI Distribution by Gender" class="health-plot" />
+        {% endif %}
+      </div>
+
+      <div class="plot-container">
+        {% if plot3 %}
+        <h3>By Similar Health Conditions</h3>
+        <img src="{{ url_for('static', filename=plot3) }}" alt="BMI Distribution by Condition Group" class="health-plot" />
+        {% endif %}
+      </div>
+      <div class="plot-container">
+        {% if plot1 %}
+        <h3>By Age Group</h3>
+        <img src="{{ url_for('static', filename=plot1) }}" alt="BMI Distribution by Age Group" class="health-plot" />
+        {% endif %}
+      </div>
+
+    </section>
+
+  </main>
+  {% endif %}
+</body>
+</html>

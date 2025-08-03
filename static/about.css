@@ -1,0 +1,68 @@
+.about-container {
+    text-align: center;
+    max-height: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.about-container h1,
+.about-container h2 {
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.about-container .back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 10;
+}
+
+.about-container .back-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about-container .features,
+.about-container .who-its-for,
+.about-container .technologies {
+    margin-bottom: 30px;
+}
+
+.about-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-container ul li {
+    margin: 5px 0;
+}
+
+.about-container .team-info {
+    margin-top: 30px;
+    font-style: italic;
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthOptima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='start.css') }}">
+</head>
+<body>
+    <div class="start-container">
+        <div class="logo">
+        
+            <h1>HealthOptima</h1>
+        </div>
+
+        <div class="start-button-wrapper">
+            <button class="start-button" onclick="startTransition()">Start</button>
+        </div>
+    </div>
+
+    <!-- About Us Link -->
+    <div class="about-us">
+        <a href="about">About Us</a>
+    </div>
+
+    <!-- Overlay for transition animation -->
+    <div class="transition-overlay" id="overlay"></div>
+
+    <script>
+        function startTransition() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'block';
+
+            setTimeout(() => {
+                window.location.href = 'account'; // Replace with your next page
+            }, 800); // Matches animation duration
+        }
+    </script>
+</body>
+</html>

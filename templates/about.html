@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us - HealthOptima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}" />
+</head>
+<body>
+    <div class="about-container">
+        <!-- Back Button -->
+        <button class="back-button" onclick="window.location.href='/'">Back</button>
+
+        <h1>HealthOptima</h1>
+        <h2>Your Personal Food &amp; Health Advisor.</h2>
+
+        <p>
+            Make confident food choices tailored to your health. With ingredient recognition, nutrition details, and health analytics,
+            HealthOptima guides you through a smarter, healthier lifestyle.
+        </p>
+
+        <div class="features">
+            <h3>Key Features</h3>
+            <ul>
+                <li>✅ Upload image of food/ingredients</li>
+                <li>✅ OCR extracts text using EasyOCR</li>
+                <li>✅ Analyze based on user’s selected health conditions</li>
+                <li>✅ CSV-based smart logic for food suitability</li>
+                <li>✅ Search food by name to get detailed nutrition charts</li>
+                <li>✅ Analyze your health conditions (BMI, BMR, TDEE, body fat) with suggestions and visual comparisons</li>
+                <li>✅ Access related health videos and follow trusted health creators</li>
+            </ul>
+        </div>
+
+        <div class="who-its-for">
+            <h3>Who It's For</h3>
+            <ul>
+                <li>👨‍🎓 Students with bad eating habits</li>
+                <li>👩‍⚕️ People with diabetes, allergies, or other health conditions</li>
+                <li>👯‍♂️ Anyone who trusts food more than friends</li>
+                <li>🍜 Basically, anyone who's ever wondered “What’s really in this?”</li>
+            </ul>
+        </div>
+
+        <div class="technologies">
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>🐍 Python (Backend + OCR)</li>
+                <li>📄 CSV Data for logic</li>
+                <li>🤖 EasyOCR</li>
+                <li>🌐 HTML + CSS + Flask</li>
+            </ul>
+        </div>
+
+        <div class="team-info">
+            <h3>About the Team</h3>
+            <p>Team Name: Alt+f4 – The Ultimate Solution to All Problems</p>
+            <p>“We code, we snack, and we roast food more than we roast our batchmates.”</p>
+            <p>“Because food sticks around longer than your CGPA.”</p>
+            <p>“When friends disappoint, food won’t.”</p>
+        </div>
+    </div>
+</body>
+</html>

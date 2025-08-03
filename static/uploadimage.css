@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.image-upload-section {
+    background-color: #222; 
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    color: #f0f0f0;
+    text-align: center;
+    position: relative;
+}
+
+
+.back-arrow a {
+    font-size: 28px;
+    color: #f0f0f0;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-arrow a:hover {
+    text-decoration: none; 
+}
+
+
+.image-upload-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.instructions p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+}
+
+
+.upload-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.upload-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.message-section {
+    margin-top: 15px;
+    color: #f0f0f0;
+    font-size: 18px;
+}
+
+
+.buttons button {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}

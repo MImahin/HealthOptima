@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Search Food Information</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='searchfood.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Search Food Information</h1>
+        <form method="POST" class="search-form">
+            <input type="text" name="food_name" placeholder="Enter food name..." required autofocus>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    {% if food_name %}
+    <section class="results">
+        <h2>Results for: {{ food_name }}</h2>
+        
+        <div class="chart-container">
+           {% if chart_path %}
+            <img src="{{ url_for('static', filename=chart_path) }}" alt="Nutrient Chart" class="nutrient-chart" />
+            {% endif %}
+
+        </div>
+        {% if no_data %}
+        <div class="no-data-message">
+            <p>⚠️ No food result found. Please try another search.</p>
+        </div>
+        {% endif %}
+
+        <div class="warnings">
+            <h3>Dietary Warnings:</h3>
+            <ul>
+                {% for warning in warnings %}
+                <li>{{ warning }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% if ingredients %}
+        <div class="ingredients-info">
+            <h3>Ingredients :</h3>
+            <p>{{ ingredients }}</p>
+        </div>
+        {% endif %}
+
+    </section>
+    {% endif %}
+
+    <div style="text-align: center; margin-top: 30px;">
+    <a href="{{ url_for('home') }}" class="back-button">Back</a>
+</div>
+</body>
+</html>

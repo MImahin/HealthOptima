@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           
+        </div>
+    </header>
+
+    <main>
+        <div class="login-form">
+            
+            <!-- Invalid input message -->
+            <div id="error-message" style="color: red; display: none;">
+                <p>Invalid input. Please try again.</p>
+            </div>
+            
+            <!-- Form for login -->
+            <form action="/login" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Log In</button>
+            </form>
+            
+            <!-- Back button to previous page -->
+            <div class="back-button">
+                <a href="account"><button>Back</button></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="project-name">
+      <h1>HealthOptima</h1>
+    </div>
+    <div class="menu-container" tabindex="0">
+      <div class="dot-menu">&#x22EE;</div>
+      <div class="logout-dropdown">
+        <a href="account" class="logout-btn">Logout</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <!-- Left Sidebar -->
+    <nav class="left-sidebar">
+  <div class="nav-card">
+    <label>Check Food by Ingredients:</label>
+    <a href="uploadimage" class="go-arrow">&#8594;</a>
+  </div>
+
+   <div class="nav-card">
+    <label>Analyse BMI, TDEE & Body Fat:</label>
+    <a href="analysehealth" class="go-arrow">&#8594;</a>
+  </div>
+  
+  <div class="nav-card">
+    <label>Search Food Information:</label>
+    <a href="searchfood" class="go-arrow">&#8594;</a>
+  </div>
+
+ 
+
+  <!-- Suggested Health Video 1 -->
+
+<!-- Suggested Health Video 2 -->
+<div class="video-card">
+  <label></label>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/XMcab1MFaLc" 
+      title="YouTube video" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+<div class="video-card">
+  <label></label>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/uan3Aj0bHKc" 
+      title="YouTube video" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+<div class="video-card">
+  <label></label>
+  <div class="video-wrapper">
+    <iframe
+      src="https://cdn.jwplayer.com/previews/pgJDKhGX"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+</nav>
+
+
+    <!-- Middle Content Area -->
+    <section class="middle-content">
+      <!-- Success message -->
+      {% if success_message %}
+      <div class="popup-message show">
+        <h2>{{ success_message }}</h2>
+      </div>
+      {% endif %}
+
+      <!-- Tabs for plots -->
+      <div class="tabs">
+        <input type="radio" name="tabs" id="tab1" class="tab" />
+        <label for="tab1" class="tab-label">Same Age</label>
+
+        <input type="radio" name="tabs" id="tab2" checked class="tab" />
+        <label for="tab2" class="tab-label">Same Gender</label>
+
+        <input type="radio" name="tabs" id="tab3" class="tab" />
+        <label for="tab3" class="tab-label">Same Weight</label>
+
+
+        <div class="tab-content-container">
+          <div class="tab-content" id="content1">
+            {% if plots[0] %}
+              <div class="plot-card"><img src="{{ plots[0] }}" alt="Age Plot" /></div>
+            {% elif warnings[0] %}
+              <p class="warning">{{ warnings[0] }}</p>
+            {% else %}
+              <p class="warning">No data available for this plot.</p>
+            {% endif %}
+          </div>
+
+          <div class="tab-content" id="content2">
+            {% if plots[1] %}
+              <div class="plot-card"><img src="{{ plots[1] }}" alt="Gender Plot" /></div>
+            {% elif warnings[1] %}
+              <p class="warning">{{ warnings[1] }}</p>
+            {% else %}
+              <p class="warning">No data available for this plot.</p>
+            {% endif %}
+          </div>
+
+          <div class="tab-content" id="content3">
+            {% if plots[2] %}
+              <div class="plot-card"><img src="{{ plots[2] }}" alt="Weight Plot" /></div>
+            {% elif warnings[2] %}
+              <p class="warning">{{ warnings[2] }}</p>
+            {% else %}
+              <p class="warning">No data available for this plot.</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <!-- Creator Suggestions -->
+<!-- Creator Suggestions -->
+<div class="creator-section">
+  <h2 class="creator-heading">Connect with Leading Voices in Health and Fitness, Stay inspired by proven strategies and expert insights.</h2>
+  <div class="creator-cards">
+    <a href="https://www.doctormikemedia.com/" target="_blank" class="creator-card">
+      <img src="https://cdn.prod.website-files.com/5f8793d76c1c35ffa98866af/645a9c203413d99f8c057b33_DM_Isolated_6.png" alt="Dr. Mike" />
+      <span>Dr. Mike</span>
+    </a>
+    <a href="https://linktr.ee/jeffnippard" target="_blank" class="creator-card">
+      <img src="https://ugc.production.linktr.ee/BsVefQ5WQCWFIgIaa6v3_Epa3Or1bN2pPwrIL?io=true&size=avatar-v3_0" alt="Jeff Nippard" />
+      <span>Jeff Nippard</span>
+    </a>
+    <a href="https://linktr.ee/nickbarefitness" target="_blank" class="creator-card">
+      <img src="https://ugc.production.linktr.ee/Py9HZrEWRgaC2Bb1xf3c_GZib1nbZEhRWB72x?io=true&size=avatar-v3_0" alt="Nick Bare" />
+      <span>Nick Bare</span>
+    </a>
+  </div>
+</div>
+
+    </section>
+
+    <!-- Right Sidebar -->
+    <aside class="right-sidebar">
+      <div class="profile-card">
+        <h3>User Profile</h3>
+        {% for key, value in user_info.items() %}
+            <p><strong>{{ key }}:</strong> {{ value }}</p>
+        {% endfor %}
+        </div>
+        
+    </aside>
+  </main>
+
+</body>
+</html>

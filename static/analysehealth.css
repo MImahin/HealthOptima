@@ -1,0 +1,172 @@
+
+body {
+  background-color: #000; 
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.analysis-results {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.metrics-section {
+  flex: 0 0 25%;  
+  background-color: #fff;  
+  color: #000; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-size: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.metrics-section h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #111;
+}
+
+
+.metrics-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.metrics-section ul li {
+  margin-bottom: 10px;
+}
+
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;  
+  padding: 10px 20px;
+  background-color: #000; 
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  align-self: flex-start; 
+}
+
+.back-button:hover {
+  background-color: #333;
+}
+
+
+.plots-section {
+  flex: 1;  
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  overflow-y: auto;
+  max-height: 85vh; 
+}
+
+
+.plots-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+
+.plot-container {
+  margin-bottom: 30px;
+}
+
+
+.health-plot {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+
+
+.input-card {
+  background-color: #fff;
+  color: #000;
+  width: 350px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-card form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+.input-card label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111;
+}
+
+
+.input-card input[type="number"] {
+  padding: 10px 12px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-card button[type="submit"] {
+  margin-top: 25px;
+  padding: 16px 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #58D68D; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.input-card button[type="submit"]:hover {
+  background-color: #45b07f;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
