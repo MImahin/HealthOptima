@@ -20,7 +20,7 @@ Visit this page to learn what the app does, how to use it, and get setup instruc
 - 🧠 Ingredient analysis using OCR + health database
 - 📊 Personalized feedback on what to eat (and what to avoid)
 - 🖼️ Visualizations of nutrition and consumption recommendations
-- 🔐 Profile system (optional), with user-specific tracking
+- 🔐 Health analysis and comparison with others, providing personalized insights
 
 ---
 
