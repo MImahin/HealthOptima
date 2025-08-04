@@ -4,8 +4,11 @@ import matplotlib
 matplotlib.use('Agg')  #  Use a non-GUI backend suitable for web apps
 
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-USDA_API_KEY = "Betd6Roj7d896WVtzv1ivRKjieE8gJIe3nV1tKTE"
+USDA_API_KEY = os.getenv("USDA_API_KEY")
 
 def get_food_nutrients_in_grams(food_name, api_key=USDA_API_KEY):
     search_url = "https://api.nal.usda.gov/fdc/v1/foods/search"
